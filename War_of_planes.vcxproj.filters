@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bomb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyboss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemybullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="heroplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mypushbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyboss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemybullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heroplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mypushbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="playscene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="prop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="photo\01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\05.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\06.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\07.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\08.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\09.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\11(1).png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\18.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\19.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_11.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_15.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\21_bomb_9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\22_num_9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\23_enemy_bullet_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\23_enemy_bullet_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\23_enemy_bullet_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\23_enemy_bullet_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\24_boss1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\25_bossLaser.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="photo\26_BulletProp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
